@@ -1,0 +1,15 @@
+Grupa:324CC
+Nume: Mistodinis Robert Alexandru
+
+Aceasta tema mi s-a parut foarte grea initial , dar incet incet am rezolvat-o. Am folosit liste si cozi in implementarea ei , pe langa grafuri. Iti pune la incercare cunostintele din aproape tot semestrul. Pentru mine dezalocarea memoriei a fost putin mai grea pentru ca este prima tema la care o fac , dar am reusit.
+
+Task1: A fost diferita fata de un laborator deoarece aici am adaugat nodurile , capacitatea fiind variabila in functie de input , am folosit functia de realocare. Apoi am trasat muchii intre toate nodurile din cadrul unui film. Am folosit functii auxiliare pentru a-mi usura treaba. Apoi am stocat intr-o lista nodurile din cea mai mare componenta conexa , le-am sortat si le-am scris in fisier.
+
+Task2: Odata terminat taskul1 , in taskul2 ramane doar sa citesti ultimele doua linii , sa afli numarul nodului pentru fiecare dintre cei doi actori si sa calculezi distanta dintre cei doi. Apoi sa scrii in fisier.
+
+Task3: Aici am folosit algoritmul pentru depistarea puntilor din graful citit. Am retinut aceste punti de tip (u,v) sau (nume1,nume2) intr-o lista , dar am si ordonat actorii din cadrul aceluiasi nod in acelasi timp. Pentru afisarea numarului de punti am folosit o functie pentru a calcula lungimea listei. 
+Pentru a ordona actorii am folosit doi vectori de siruri. Mai intai am ordonat  primul vector de siruri , iar apoi mergand prin lista , atunci cand un nod din lista avea primul actor identic cu actorul din primul vector de siruri adaugam in al 2-lea vector de siruri al 2-lea actor din acel nod.Dupa eliminam acel nod din lista.
+Pentru a ordona si al 2-lea vector de siruri , am parcurs primul vector de siruri si cand un actor stabilea punti cu mai multi actori , ordonam in cel de-al 2-lea vector de siruri doar acea portiune.
+
+Explicatia poate parea intortochiata la taskul3 , se vede mult mai bine in cod.
+Per total sunt multumit de mine ca am reusit sa termin aceasta tema. Am ramas cu multe lucruri utile legate de c si de grafuri.
